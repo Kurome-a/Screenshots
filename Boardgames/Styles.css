@@ -1,0 +1,71 @@
+/*
+	Name: Medina, Aaron Gerard C.
+	Date: 8/18/2025
+*/
+
+/* General */
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  background: #f2f2f2;
+}
+
+h1 {
+  margin: 20px 0;
+}
+
+.game {
+  margin: 40px auto;
+}
+
+table {
+  border-collapse: collapse;
+  margin: 0 auto;
+  table-layout: fixed;
+}
+
+/* Chess */
+.chess td {
+  width: 60px;
+  height: 60px;
+  text-align: center;
+  vertical-align: middle;
+  font-size: 2rem;
+  border: 1px solid #000;
+}
+
+.chess tr:nth-child(even) td:nth-child(odd),
+.chess tr:nth-child(odd) td:nth-child(even) {
+  background: #769656; /* green*/
+  color: white;
+}
+
+.chess tr:nth-child(even) td:nth-child(even),
+.chess tr:nth-child(odd) td:nth-child(odd) {
+  background: #eeeed2; /* beige */
+}
+
+/* Crossword */
+.crossword td {
+  width: 50px;
+  height: 50px;
+  border: 1px solid #000;
+  text-align: center;
+  vertical-align: middle;
+  font-size: 1.2rem;
+  background: white;
+}
+
+.crossword .black {
+  background: black;
+}
+
+/* Tic Tac Toe */
+.tictactoe td {
+  width: 80px;
+  height: 80px;
+  border: 3px solid #000;
+  text-align: center;
+  vertical-align: middle;
+  font-size: 2rem;
+}
